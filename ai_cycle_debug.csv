@@ -1,0 +1,667 @@
+Step,ActiveGroups,CycleOrder,Selected,Vehicles,GreenTime
+0,['west'],['west'],west,1,12
+1,"['south', 'west']",['west'],west,1,12
+2,"['south', 'west']",[],south,1,12
+3,"['east', 'south', 'west']","['west', 'east', 'south']",west,2,12
+4,"['east', 'south', 'west']","['west', 'east', 'south']",east,1,12
+5,"['east', 'south', 'west']","['west', 'east', 'south']",south,2,12
+6,"['north', 'east', 'south', 'west']","['west', 'east', 'south']",west,1,12
+7,"['north', 'east', 'south', 'west']",[],north,2,12
+8,"['north', 'east', 'south', 'west']","['north', 'east', 'south', 'west']",north,2,14
+9,"['north', 'east', 'south', 'west']","['north', 'east', 'south', 'west']",east,2,12
+10,"['north', 'east', 'south', 'west']","['north', 'east', 'south', 'west']",south,2,12
+11,"['north', 'east', 'south', 'west']","['north', 'east', 'south', 'west']",west,2,14
+12,"['north', 'east', 'south', 'west']",[],north,3,19
+13,"['north', 'east', 'south', 'west']","['south', 'east', 'north', 'west']",south,4,24
+14,"['north', 'east', 'south', 'west']","['south', 'east', 'north', 'west']",east,3,19
+15,"['north', 'east', 'south', 'west']","['south', 'east', 'north', 'west']",north,2,14
+16,"['north', 'east', 'south', 'west']","['south', 'east', 'north', 'west']",west,3,17
+17,"['north', 'east', 'south', 'west']",[],south,5,27
+18,"['north', 'east', 'south', 'west']","['south', 'east', 'west', 'north']",south,5,27
+19,"['north', 'east', 'south', 'west']","['south', 'east', 'west', 'north']",east,4,24
+20,"['north', 'east', 'south', 'west']","['south', 'east', 'west', 'north']",west,3,19
+21,"['north', 'east', 'south', 'west']","['south', 'east', 'west', 'north']",north,2,14
+22,"['north', 'east', 'south', 'west']",[],south,8,44
+23,"['north', 'east', 'south', 'west']","['south', 'east', 'west', 'north']",south,8,44
+24,"['north', 'east', 'south', 'west']","['south', 'east', 'west', 'north']",east,6,34
+25,"['east', 'south', 'west']","['south', 'east', 'west', 'north']",west,5,25
+26,"['east', 'south', 'west']",[],south,9,45
+27,"['east', 'south', 'west']","['south', 'east', 'west']",south,9,45
+28,"['north', 'east', 'south', 'west']","['south', 'east', 'west']",east,7,37
+29,"['north', 'east', 'south', 'west']","['south', 'east', 'west']",west,5,27
+30,"['north', 'east', 'south', 'west']","['south', 'east', 'west']",south,10,45
+31,"['north', 'east', 'south', 'west']",[],south,10,45
+32,"['north', 'east', 'south', 'west']","['east', 'south', 'west', 'north']",east,8,42
+33,"['north', 'east', 'south', 'west']","['east', 'south', 'west', 'north']",south,8,42
+34,"['north', 'east', 'south', 'west']","['east', 'south', 'west', 'north']",west,6,32
+35,"['north', 'east', 'south', 'west']","['east', 'south', 'west', 'north']",north,2,14
+36,"['north', 'east', 'south', 'west']",[],east,9,45
+37,"['north', 'east', 'south', 'west']","['east', 'south', 'west', 'north']",east,10,45
+38,"['north', 'east', 'south', 'west']","['east', 'south', 'west', 'north']",south,5,31
+39,"['north', 'east', 'south', 'west']","['east', 'south', 'west', 'north']",west,7,41
+40,"['north', 'east', 'south', 'west']","['east', 'south', 'west', 'north']",north,3,21
+41,"['north', 'east', 'south', 'west']",[],east,10,45
+42,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+43,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,45
+44,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,5,31
+45,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+46,"['north', 'east', 'south', 'west']",[],east,10,45
+47,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+48,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,45
+49,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,36
+50,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+51,"['north', 'east', 'south', 'west']",[],east,10,45
+52,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+53,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,42
+54,"['north', 'east', 'west']","['east', 'west', 'north', 'south']",north,6,30
+55,"['north', 'east', 'west']",[],east,10,45
+56,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+57,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,42
+58,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,32
+59,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,2,14
+60,"['north', 'east', 'south', 'west']",[],east,10,45
+61,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+62,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,44
+63,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,34
+64,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,2,14
+65,"['north', 'east', 'south', 'west']",[],east,10,45
+66,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+67,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,45
+68,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,38
+69,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+70,"['north', 'east', 'south', 'west']",[],east,10,45
+71,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+72,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,44
+73,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,36
+74,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,2,14
+75,"['north', 'east', 'south', 'west']",[],east,10,45
+76,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+77,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,44
+78,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,34
+79,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,2,14
+80,"['north', 'east', 'south', 'west']",[],west,8,44
+81,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,44
+82,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,34
+83,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,5,29
+84,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,2,14
+85,"['north', 'east', 'south', 'west']",[],west,8,44
+86,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,44
+87,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,36
+88,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,3,21
+89,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,4,26
+90,"['north', 'east', 'south', 'west']",[],west,8,45
+91,"['north', 'east', 'south', 'west']","['west', 'north', 'south', 'east']",west,8,44
+92,"['north', 'east', 'south', 'west']","['west', 'north', 'south', 'east']",north,6,34
+93,"['north', 'east', 'south', 'west']","['west', 'north', 'south', 'east']",south,6,34
+94,"['north', 'east', 'south', 'west']","['west', 'north', 'south', 'east']",east,2,14
+95,"['north', 'east', 'south', 'west']",[],west,8,44
+96,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",west,8,44
+97,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",south,7,41
+98,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",north,6,36
+99,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",east,3,21
+100,"['north', 'east', 'south', 'west']",[],west,8,45
+101,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",west,8,45
+102,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",south,7,39
+103,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",north,6,34
+104,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",east,2,14
+105,"['north', 'east', 'south', 'west']",[],south,8,44
+106,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,8,44
+107,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,44
+108,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,34
+109,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,2,14
+110,"['north', 'east', 'south', 'west']",[],south,8,44
+111,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,8,44
+112,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,44
+113,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,34
+114,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,2,14
+115,"['north', 'east', 'south', 'west']",[],south,8,44
+116,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,8,44
+117,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,44
+118,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,34
+119,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,2,14
+120,"['north', 'east', 'south', 'west']",[],south,8,44
+121,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,8,44
+122,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,44
+123,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,36
+124,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,4,28
+125,"['north', 'east', 'south', 'west']",[],west,8,45
+126,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,45
+127,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,38
+128,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,5,31
+129,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,4,28
+130,"['north', 'east', 'south', 'west']",[],west,8,45
+131,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",west,8,45
+132,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",east,7,43
+133,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",north,6,36
+134,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",south,3,21
+135,"['north', 'east', 'south', 'west']",[],west,8,44
+136,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",west,8,44
+137,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",east,7,39
+138,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",north,6,36
+139,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",south,2,14
+140,"['north', 'east', 'south', 'west']",[],west,8,44
+141,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",west,8,45
+142,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",east,7,39
+143,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",north,6,36
+144,"['north', 'east', 'south', 'west']","['west', 'east', 'north', 'south']",south,3,21
+145,"['north', 'east', 'south', 'west']",[],east,8,45
+146,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,8,45
+147,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,44
+148,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,34
+149,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+150,"['north', 'east', 'south', 'west']",[],east,8,44
+151,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,8,44
+152,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,44
+153,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,36
+154,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+155,"['north', 'east', 'south', 'west']",[],east,8,44
+156,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,8,44
+157,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,45
+158,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,34
+159,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,2,14
+160,"['north', 'east', 'south', 'west']",[],east,8,44
+161,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,8,44
+162,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,44
+163,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,34
+164,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,2,14
+165,"['north', 'east', 'south', 'west']",[],east,8,44
+166,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,44
+167,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,34
+168,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,6,34
+169,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,2,14
+170,"['north', 'east', 'south', 'west']",[],west,8,44
+171,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,44
+172,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,34
+173,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,4,26
+174,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,4,26
+175,"['north', 'east', 'south', 'west']",[],west,8,45
+176,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,45
+177,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,36
+178,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,3,21
+179,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,5,31
+180,"['north', 'east', 'south', 'west']",[],west,8,45
+181,"['north', 'east', 'south', 'west']","['west', 'north', 'south', 'east']",west,8,44
+182,"['north', 'east', 'south', 'west']","['west', 'north', 'south', 'east']",north,6,34
+183,"['north', 'east', 'south', 'west']","['west', 'north', 'south', 'east']",south,7,41
+184,"['north', 'east', 'south', 'west']","['west', 'north', 'south', 'east']",east,4,28
+185,"['north', 'east', 'south', 'west']",[],west,8,45
+186,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",west,8,45
+187,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",south,7,41
+188,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",north,6,38
+189,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",east,3,21
+190,"['north', 'east', 'south', 'west']",[],west,8,44
+191,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",west,8,45
+192,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",south,7,41
+193,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",north,6,34
+194,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",east,3,21
+195,"['north', 'east', 'south', 'west']",[],west,8,44
+196,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",west,8,44
+197,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",south,7,41
+198,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",north,6,34
+199,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",east,2,14
+200,"['north', 'east', 'south', 'west']",[],west,8,45
+201,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",west,8,44
+202,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",south,7,39
+203,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",north,6,34
+204,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",east,2,14
+205,"['north', 'east', 'south', 'west']",[],west,8,44
+206,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",west,8,44
+207,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",south,7,39
+208,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",north,6,34
+209,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",east,1,12
+210,"['north', 'east', 'south', 'west']",[],west,8,42
+211,"['north', 'south', 'west']","['west', 'south', 'north']",west,8,40
+212,"['north', 'south', 'west']","['west', 'south', 'north']",south,7,35
+213,"['north', 'south', 'west']","['west', 'south', 'north']",north,6,30
+214,"['north', 'south', 'west']",[],west,8,40
+215,"['north', 'south', 'west']","['west', 'south', 'north']",west,8,40
+216,"['north', 'east', 'south', 'west']","['west', 'south', 'north']",south,7,37
+217,"['north', 'east', 'south', 'west']","['west', 'south', 'north']",north,6,32
+218,"['north', 'east', 'south', 'west']","['west', 'south', 'north']",west,8,42
+219,"['north', 'east', 'south', 'west']",[],west,8,44
+220,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",west,8,44
+221,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",south,7,39
+222,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",north,6,34
+223,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",east,2,14
+224,"['north', 'east', 'south', 'west']",[],west,8,45
+225,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,45
+226,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,36
+227,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,4,26
+228,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,3,21
+229,"['north', 'east', 'south', 'west']",[],west,8,45
+230,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,45
+231,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,36
+232,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,6,38
+233,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,4,28
+234,"['north', 'east', 'south', 'west']",[],west,8,45
+235,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,45
+236,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,40
+237,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,8,45
+238,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,3,21
+239,"['north', 'east', 'south', 'west']",[],east,9,45
+240,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,9,45
+241,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,44
+242,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,36
+243,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+244,"['north', 'east', 'south', 'west']",[],east,10,45
+245,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+246,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,45
+247,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,36
+248,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+249,"['north', 'east', 'south', 'west']",[],east,10,45
+250,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+251,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,44
+252,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,34
+253,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+254,"['north', 'east', 'south', 'west']",[],east,10,45
+255,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+256,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,45
+257,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,36
+258,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+259,"['north', 'east', 'south', 'west']",[],east,10,45
+260,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",east,10,45
+261,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",west,8,45
+262,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",north,6,36
+263,"['north', 'east', 'south', 'west']","['east', 'west', 'north', 'south']",south,3,21
+264,"['north', 'east', 'south', 'west']",[],west,8,45
+265,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",west,8,45
+266,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",north,6,38
+267,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",east,5,35
+268,"['north', 'east', 'south', 'west']","['west', 'north', 'east', 'south']",south,6,42
+269,"['north', 'east', 'south', 'west']",[],west,8,45
+270,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",west,8,45
+271,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",south,7,43
+272,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",north,6,40
+273,"['north', 'east', 'south', 'west']","['west', 'south', 'north', 'east']",east,4,28
+274,"['north', 'east', 'south', 'west']",[],south,9,45
+275,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,9,45
+276,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,45
+277,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,34
+278,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,2,14
+279,"['north', 'east', 'south', 'west']",[],south,9,45
+280,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,9,45
+281,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,45
+282,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,34
+283,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,2,14
+284,"['north', 'east', 'south', 'west']",[],south,9,45
+285,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,9,45
+286,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,44
+287,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,34
+288,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,2,14
+289,"['north', 'east', 'south', 'west']",[],south,9,45
+290,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,9,45
+291,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,44
+292,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,34
+293,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,2,14
+294,"['north', 'east', 'south', 'west']",[],south,9,45
+295,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,9,45
+296,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,45
+297,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,36
+298,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,3,21
+299,"['north', 'east', 'south', 'west']",[],south,9,45
+300,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,9,45
+301,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,44
+302,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,34
+303,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",east,1,12
+304,"['north', 'east', 'south', 'west']",[],south,9,45
+305,"['north', 'east', 'south', 'west']","['south', 'west', 'north', 'east']",south,9,45
+306,"['north', 'south', 'west']","['south', 'west', 'north', 'east']",west,8,40
+307,"['north', 'south', 'west']","['south', 'west', 'north', 'east']",north,6,30
+308,"['north', 'south', 'west']",[],south,7,35
+309,"['north', 'south', 'west']","['west', 'north', 'south']",west,7,35
+310,"['north', 'south', 'west']","['west', 'north', 'south']",north,6,30
+311,"['north', 'south', 'west']","['west', 'north', 'south']",south,6,30
+312,"['north', 'south', 'west']",[],north,6,30
+313,"['north', 'south', 'west']","['north', 'west', 'south']",north,6,30
+314,"['north', 'south', 'west']","['north', 'west', 'south']",west,7,35
+315,"['north', 'south', 'west']","['north', 'west', 'south']",south,4,20
+316,"['north', 'south', 'west']",[],west,7,35
+317,"['north', 'south', 'west']","['west', 'north', 'south']",west,7,35
+318,"['north', 'south', 'west']","['west', 'north', 'south']",north,6,30
+319,"['north', 'south', 'west']","['west', 'north', 'south']",south,3,15
+320,"['north', 'south', 'west']",[],west,7,35
+321,"['north', 'south', 'west']","['west', 'north', 'south']",west,7,35
+322,"['north', 'south', 'west']","['west', 'north', 'south']",north,6,30
+323,"['north', 'south', 'west']","['west', 'north', 'south']",south,2,12
+324,"['north', 'south', 'west']",[],west,7,35
+325,"['north', 'south', 'west']","['west', 'north', 'south']",west,7,35
+326,"['north', 'south', 'west']","['west', 'north', 'south']",north,6,30
+327,"['north', 'south', 'west']","['west', 'north', 'south']",south,2,12
+328,"['north', 'south', 'west']",[],west,7,35
+329,"['north', 'south', 'west']","['west', 'north', 'south']",west,7,35
+330,"['north', 'south', 'west']","['west', 'north', 'south']",north,5,25
+331,"['north', 'south', 'west']","['west', 'north', 'south']",south,3,15
+332,"['north', 'south', 'west']",[],west,7,35
+333,"['north', 'south', 'west']","['west', 'north', 'south']",west,7,35
+334,"['north', 'south', 'west']","['west', 'north', 'south']",north,6,30
+335,"['north', 'south', 'west']","['west', 'north', 'south']",south,3,15
+336,"['north', 'south', 'west']",[],west,7,35
+337,"['north', 'south', 'west']","['west', 'north', 'south']",west,7,35
+338,"['north', 'south', 'west']","['west', 'north', 'south']",north,6,30
+339,"['north', 'south', 'west']","['west', 'north', 'south']",south,2,12
+340,"['north', 'south', 'west']",[],west,7,35
+341,"['north', 'south', 'west']","['west', 'north', 'south']",west,7,35
+342,"['north', 'south', 'west']","['west', 'north', 'south']",north,6,30
+343,"['north', 'south', 'west']","['west', 'north', 'south']",south,1,12
+344,"['north', 'south', 'west']",[],west,7,35
+345,"['north', 'south', 'west']","['west', 'north', 'south']",west,7,35
+346,"['north', 'west']","['west', 'north', 'south']",north,5,25
+347,"['north', 'west']",[],west,7,35
+348,"['north', 'west']","['west', 'north']",west,7,35
+349,"['north', 'west']","['west', 'north']",north,5,25
+350,"['north', 'west']",[],west,7,35
+351,"['north', 'west']","['north', 'west']",north,5,25
+352,"['north', 'west']","['north', 'west']",west,5,25
+353,"['north', 'west']",[],north,5,25
+354,"['north', 'west']","['north', 'west']",north,5,25
+355,"['north', 'west']","['north', 'west']",west,3,15
+356,"['north', 'west']",[],north,5,25
+357,"['north', 'west']","['north', 'west']",north,5,25
+358,"['north', 'west']","['north', 'west']",west,3,15
+359,"['north', 'west']",[],north,5,25
+360,"['north', 'west']","['north', 'west']",north,5,25
+361,"['north', 'west']","['north', 'west']",west,3,15
+362,"['north', 'west']",[],north,5,25
+363,"['north', 'west']","['north', 'west']",north,5,25
+364,"['north', 'west']","['north', 'west']",west,3,15
+365,"['north', 'west']",[],north,5,25
+366,"['north', 'west']","['north', 'west']",north,5,25
+367,"['north', 'west']","['north', 'west']",west,2,12
+368,"['north', 'west']",[],north,5,25
+369,"['north', 'west']","['north', 'west']",north,5,25
+370,"['north', 'west']","['north', 'west']",west,2,12
+371,"['north', 'west']",[],north,5,25
+372,"['north', 'west']","['north', 'west']",north,5,25
+373,"['north', 'west']","['north', 'west']",west,3,15
+374,"['north', 'west']",[],north,5,25
+375,"['north', 'west']","['north', 'west']",north,5,25
+376,"['north', 'west']","['north', 'west']",west,4,20
+377,"['north', 'west']",[],north,5,25
+378,"['north', 'west']","['north', 'west']",north,5,25
+379,"['north', 'west']","['north', 'west']",west,3,15
+380,"['north', 'west']",[],north,5,25
+381,"['north', 'west']","['north', 'west']",north,5,25
+382,"['north', 'west']","['north', 'west']",west,4,20
+383,"['north', 'west']",[],north,5,25
+384,"['north', 'west']","['north', 'west']",north,5,25
+385,"['north', 'west']","['north', 'west']",west,3,15
+386,"['north', 'west']",[],north,5,25
+387,"['north', 'west']","['north', 'west']",north,5,25
+388,"['north', 'west']","['north', 'west']",west,3,15
+389,"['north', 'west']",[],north,5,25
+390,"['north', 'west']","['north', 'west']",north,5,25
+391,"['north', 'west']","['north', 'west']",west,3,15
+392,"['north', 'west']",[],north,5,25
+393,"['north', 'west']","['north', 'west']",north,5,25
+394,"['north', 'west']","['north', 'west']",west,3,15
+395,"['north', 'west']",[],north,5,25
+396,"['north', 'west']","['north', 'west']",north,5,25
+397,"['north', 'west']","['north', 'west']",west,2,12
+398,"['north', 'west']",[],north,5,25
+399,"['north', 'west']","['north', 'west']",north,5,25
+400,"['north', 'west']","['north', 'west']",west,3,15
+401,"['north', 'west']",[],north,5,25
+402,"['north', 'west']","['north', 'west']",north,5,25
+403,"['north', 'west']","['north', 'west']",west,3,15
+404,"['north', 'west']",[],north,5,25
+405,"['north', 'west']","['north', 'west']",north,5,25
+406,"['north', 'west']","['north', 'west']",west,2,12
+407,"['north', 'west']",[],north,5,25
+408,"['north', 'west']","['north', 'west']",north,5,25
+409,"['north', 'west']","['north', 'west']",west,2,12
+410,"['north', 'west']",[],north,5,25
+411,"['north', 'west']","['north', 'west']",north,5,25
+412,"['north', 'west']","['north', 'west']",west,2,12
+413,"['north', 'west']",[],north,5,25
+414,"['north', 'west']","['north', 'west']",north,5,25
+415,"['north', 'west']","['north', 'west']",west,3,15
+416,"['north', 'west']",[],north,5,25
+417,"['north', 'west']","['north', 'west']",north,5,25
+418,"['north', 'west']","['north', 'west']",west,3,15
+419,"['north', 'west']",[],north,5,25
+420,"['north', 'west']","['north', 'west']",north,5,25
+421,"['north', 'west']","['north', 'west']",west,3,15
+422,"['north', 'west']",[],north,5,25
+423,"['north', 'west']","['north', 'west']",north,5,25
+424,"['north', 'west']","['north', 'west']",west,2,12
+425,"['north', 'west']",[],north,5,25
+426,"['north', 'west']","['north', 'west']",north,5,25
+427,"['north', 'west']","['north', 'west']",west,3,15
+428,"['north', 'west']",[],north,5,25
+429,"['north', 'west']","['north', 'west']",north,5,25
+430,"['north', 'west']","['north', 'west']",west,3,15
+431,"['north', 'west']",[],north,5,25
+432,"['north', 'west']","['north', 'west']",north,5,25
+433,"['north', 'west']","['north', 'west']",west,2,12
+434,"['north', 'west']",[],north,5,25
+435,"['north', 'west']","['north', 'west']",north,5,25
+436,"['north', 'west']","['north', 'west']",west,2,12
+437,"['north', 'west']",[],north,5,25
+438,"['north', 'west']","['north', 'west']",north,5,25
+439,"['north', 'west']","['north', 'west']",west,2,12
+440,"['north', 'west']",[],north,5,25
+441,"['north', 'west']","['north', 'west']",north,5,25
+442,"['north', 'west']","['north', 'west']",west,3,15
+443,"['north', 'west']",[],north,5,25
+444,"['north', 'west']","['north', 'west']",north,5,25
+445,"['north', 'west']","['north', 'west']",west,3,15
+446,"['north', 'west']",[],north,5,25
+447,"['north', 'west']","['north', 'west']",north,5,25
+448,"['north', 'west']","['north', 'west']",west,3,15
+449,"['north', 'west']",[],north,5,25
+450,"['north', 'west']","['north', 'west']",north,5,25
+451,"['north', 'west']","['north', 'west']",west,2,12
+452,"['north', 'west']",[],north,5,25
+453,"['north', 'west']","['north', 'west']",north,5,25
+454,"['north', 'west']","['north', 'west']",west,3,15
+455,"['north', 'west']",[],north,5,25
+456,"['north', 'west']","['north', 'west']",north,5,25
+457,"['north', 'west']","['north', 'west']",west,3,15
+458,"['north', 'west']",[],north,5,25
+459,"['north', 'west']","['north', 'west']",north,5,25
+460,"['north', 'west']","['north', 'west']",west,2,12
+461,"['north', 'west']",[],north,5,25
+462,"['north', 'west']","['north', 'west']",north,5,25
+463,"['north', 'west']","['north', 'west']",west,2,12
+464,"['north', 'west']",[],north,5,25
+465,"['north', 'west']","['north', 'west']",north,5,25
+466,"['north', 'west']","['north', 'west']",west,3,15
+467,"['north', 'west']",[],north,5,25
+468,"['north', 'west']","['north', 'west']",north,5,25
+469,"['north', 'west']","['north', 'west']",west,3,15
+470,"['north', 'west']",[],north,5,25
+471,"['north', 'west']","['north', 'west']",north,5,25
+472,"['north', 'west']","['north', 'west']",west,2,12
+473,"['north', 'west']",[],north,5,25
+474,"['north', 'west']","['north', 'west']",north,5,25
+475,"['north', 'west']","['north', 'west']",west,2,12
+476,"['north', 'west']",[],north,5,25
+477,"['north', 'west']","['north', 'west']",north,5,25
+478,"['north', 'west']","['north', 'west']",west,2,12
+479,"['north', 'west']",[],north,5,25
+480,"['north', 'west']","['north', 'west']",north,5,25
+481,"['north', 'west']","['north', 'west']",west,3,15
+482,"['north', 'west']",[],north,5,25
+483,"['north', 'west']","['north', 'west']",north,5,25
+484,"['north', 'west']","['north', 'west']",west,3,15
+485,"['north', 'west']",[],north,5,25
+486,"['north', 'west']","['north', 'west']",north,5,25
+487,"['north', 'west']","['north', 'west']",west,2,12
+488,"['north', 'west']",[],north,5,25
+489,"['north', 'west']","['north', 'west']",north,5,25
+490,"['north', 'west']","['north', 'west']",west,2,12
+491,"['north', 'west']",[],north,5,25
+492,"['north', 'west']","['north', 'west']",north,5,25
+493,"['north', 'west']","['north', 'west']",west,2,12
+494,"['north', 'west']",[],north,5,25
+495,"['north', 'west']","['north', 'west']",north,5,25
+496,"['north', 'west']","['north', 'west']",west,2,12
+497,"['north', 'west']",[],north,5,25
+498,"['north', 'west']","['north', 'west']",north,5,25
+499,"['north', 'west']","['north', 'west']",west,2,12
+500,"['north', 'west']",[],north,5,25
+501,"['north', 'west']","['north', 'west']",north,5,25
+502,"['north', 'west']","['north', 'west']",west,3,15
+503,"['north', 'west']",[],north,5,25
+504,"['north', 'west']","['north', 'west']",north,5,25
+505,"['north', 'west']","['north', 'west']",west,3,15
+506,"['north', 'west']",[],north,5,25
+507,"['north', 'west']","['north', 'west']",north,5,25
+508,"['north', 'west']","['north', 'west']",west,3,15
+509,"['north', 'west']",[],north,5,25
+510,"['north', 'west']","['north', 'west']",north,5,25
+511,"['north', 'west']","['north', 'west']",west,4,20
+512,"['north', 'west']",[],north,5,25
+513,"['north', 'west']","['north', 'west']",north,5,25
+514,"['north', 'west']","['north', 'west']",west,2,12
+515,"['north', 'west']",[],north,5,25
+516,"['north', 'west']","['north', 'west']",north,5,25
+517,"['north', 'west']","['north', 'west']",west,1,12
+518,['north'],[],north,5,25
+519,['north'],['north'],north,5,25
+520,['north'],[],north,5,25
+521,['north'],['north'],north,5,25
+522,['north'],[],north,5,25
+523,['north'],['north'],north,5,25
+524,['north'],[],north,5,25
+525,['north'],['north'],north,5,25
+526,['north'],[],north,5,25
+527,['north'],['north'],north,5,25
+528,['north'],[],north,5,25
+529,['north'],['north'],north,5,25
+530,['north'],[],north,5,25
+531,['north'],['north'],north,5,25
+532,['north'],[],north,4,20
+533,['north'],['north'],north,4,20
+534,['north'],[],north,4,20
+535,['north'],['north'],north,3,15
+536,['north'],[],north,3,15
+537,['north'],['north'],north,3,15
+538,['north'],[],north,3,15
+539,['north'],['north'],north,3,15
+540,['north'],[],north,3,15
+541,['north'],['north'],north,3,15
+542,['north'],[],north,3,15
+543,['north'],['north'],north,3,15
+544,['north'],[],north,3,15
+545,['north'],['north'],north,3,15
+546,['north'],[],north,2,12
+547,['north'],['north'],north,3,15
+548,['north'],[],north,3,15
+549,['north'],['north'],north,2,12
+550,['north'],[],north,3,15
+551,['north'],['north'],north,4,20
+552,['north'],[],north,3,15
+553,['north'],['north'],north,3,15
+554,['north'],[],north,4,20
+555,['north'],['north'],north,3,15
+556,['north'],[],north,2,12
+557,['north'],['north'],north,3,15
+558,['north'],[],north,3,15
+559,['north'],['north'],north,3,15
+560,['north'],[],north,3,15
+561,['north'],['north'],north,4,20
+562,['north'],[],north,3,15
+563,['north'],['north'],north,2,12
+564,['north'],[],north,3,15
+565,['north'],['north'],north,4,20
+566,['north'],[],north,3,15
+567,['north'],['north'],north,3,15
+568,['north'],[],north,3,15
+569,['north'],['north'],north,3,15
+570,['north'],[],north,3,15
+571,['north'],['north'],north,3,15
+572,['north'],[],north,2,12
+573,['north'],['north'],north,2,12
+574,['north'],[],north,2,12
+575,['north'],['north'],north,2,12
+576,['north'],[],north,2,12
+577,['north'],['north'],north,2,12
+578,['north'],[],north,2,12
+579,['north'],['north'],north,2,12
+580,['north'],[],north,3,15
+581,['north'],['north'],north,3,15
+582,['north'],[],north,3,15
+583,['north'],['north'],north,3,15
+584,['north'],[],north,3,15
+585,['north'],['north'],north,3,15
+586,['north'],[],north,4,20
+587,['north'],['north'],north,2,12
+588,['north'],[],north,2,12
+589,['north'],['north'],north,3,15
+590,['north'],[],north,3,15
+591,['north'],['north'],north,3,15
+592,['north'],[],north,3,15
+593,['north'],['north'],north,3,15
+594,['north'],[],north,4,20
+595,['north'],['north'],north,4,20
+596,['north'],[],north,3,15
+597,['north'],['north'],north,3,15
+598,['north'],[],north,3,15
+599,['north'],['north'],north,3,15
+600,['north'],[],north,3,15
+601,['north'],['north'],north,3,15
+602,['north'],[],north,2,12
+603,['north'],['north'],north,2,12
+604,['north'],[],north,3,15
+605,['north'],['north'],north,2,12
+606,['north'],[],north,2,12
+607,['north'],['north'],north,2,12
+608,['north'],[],north,3,15
+609,['north'],['north'],north,3,15
+610,['north'],[],north,2,12
+611,['north'],['north'],north,3,15
+612,['north'],[],north,3,15
+613,['north'],['north'],north,2,12
+614,['north'],[],north,3,15
+615,['north'],['north'],north,3,15
+616,['north'],[],north,4,20
+617,['north'],['north'],north,3,15
+618,['north'],[],north,3,15
+619,['north'],['north'],north,4,20
+620,['north'],[],north,3,15
+621,['north'],['north'],north,3,15
+622,['north'],[],north,3,15
+623,['north'],['north'],north,3,15
+624,['north'],[],north,3,15
+625,['north'],['north'],north,3,15
+626,['north'],[],north,2,12
+627,['north'],['north'],north,2,12
+628,['north'],[],north,3,15
+629,['north'],['north'],north,3,15
+630,['north'],[],north,2,12
+631,['north'],['north'],north,3,15
+632,['north'],[],north,3,15
+633,['north'],['north'],north,3,15
+634,['north'],[],north,3,15
+635,['north'],['north'],north,2,12
+636,['north'],[],north,2,12
+637,['north'],['north'],north,3,15
+638,['north'],[],north,2,12
+639,['north'],['north'],north,2,12
+640,['north'],[],north,2,12
+641,['north'],['north'],north,2,12
+642,['north'],[],north,3,15
+643,['north'],['north'],north,2,12
+644,['north'],[],north,2,12
+645,['north'],['north'],north,3,15
+646,['north'],[],north,3,15
+647,['north'],['north'],north,3,15
+648,['north'],[],north,2,12
+649,['north'],['north'],north,3,15
+650,['north'],[],north,3,15
+651,['north'],['north'],north,2,12
+652,['north'],[],north,2,12
+653,['north'],['north'],north,2,12
+654,['north'],[],north,3,15
+655,['north'],['north'],north,3,15
+656,['north'],[],north,3,15
+657,['north'],['north'],north,2,12
+658,['north'],[],north,3,15
+659,['north'],['north'],north,3,15
+660,['north'],[],north,2,12
+661,['north'],['north'],north,2,12
+662,['north'],[],north,2,12
+663,['north'],['north'],north,2,12
+664,['north'],[],north,1,12
+665,['north'],['north'],north,1,12

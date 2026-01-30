@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-11-16 16:55:19 by Eclipse SUMO netconvert Version 1.24.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="nodes.xml"/>
+        <edge-files value="edges.xml"/>
+        <connection-files value="connections.xml"/>
+    </input>
+
+    <output>
+        <output-file value="network.net.xml"/>
+        <plain-output-prefix value="prefix=plain"/>
+    </output>
+
+    <processing>
+        <lefthand value="true"/>
+    </processing>
+
+</netconvertConfiguration>
+-->
+
+<nodes version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/nodes_file.xsd">
+    <location netOffset="50.00,50.00" convBoundary="0.00,-0.00,100.00,100.00" origBoundary="-50.00,-50.00,50.00,50.00" projParameter="!"/>
+
+    <node id="center" x="50.00" y="50.00" type="traffic_light" tl="center"/>
+    <node id="east" x="100.00" y="50.00" type="priority"/>
+    <node id="north" x="50.00" y="100.00" type="priority"/>
+    <node id="south" x="50.00" y="-0.00" type="priority"/>
+    <node id="west" x="0.00" y="50.00" type="priority"/>
+</nodes>

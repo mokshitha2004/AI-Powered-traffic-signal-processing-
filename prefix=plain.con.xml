@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-11-16 16:55:19 by Eclipse SUMO netconvert Version 1.24.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="nodes.xml"/>
+        <edge-files value="edges.xml"/>
+        <connection-files value="connections.xml"/>
+    </input>
+
+    <output>
+        <output-file value="network.net.xml"/>
+        <plain-output-prefix value="prefix=plain"/>
+    </output>
+
+    <processing>
+        <lefthand value="true"/>
+    </processing>
+
+</netconvertConfiguration>
+-->
+
+<connections version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="east_in" to="south_out" fromLane="0" toLane="0"/>
+    <connection from="east_in" to="west_out" fromLane="0" toLane="0"/>
+    <connection from="east_in" to="west_out" fromLane="1" toLane="1"/>
+    <connection from="east_in" to="north_out" fromLane="1" toLane="1"/>
+
+    <connection from="east_out" to="east_in" fromLane="1" toLane="1"/>
+
+    <connection from="north_in" to="east_out" fromLane="0" toLane="0"/>
+    <connection from="north_in" to="south_out" fromLane="0" toLane="0"/>
+    <connection from="north_in" to="south_out" fromLane="1" toLane="1"/>
+    <connection from="north_in" to="west_out" fromLane="1" toLane="1"/>
+
+    <connection from="north_out" to="north_in" fromLane="1" toLane="1"/>
+
+    <connection from="south_in" to="west_out" fromLane="0" toLane="0"/>
+    <connection from="south_in" to="north_out" fromLane="0" toLane="0"/>
+    <connection from="south_in" to="north_out" fromLane="1" toLane="1"/>
+    <connection from="south_in" to="east_out" fromLane="1" toLane="1"/>
+
+    <connection from="south_out" to="south_in" fromLane="1" toLane="1"/>
+
+    <connection from="west_in" to="north_out" fromLane="0" toLane="0"/>
+    <connection from="west_in" to="east_out" fromLane="0" toLane="0"/>
+    <connection from="west_in" to="east_out" fromLane="1" toLane="1"/>
+    <connection from="west_in" to="south_out" fromLane="1" toLane="1"/>
+
+    <connection from="west_out" to="west_in" fromLane="1" toLane="1"/>
+
+</connections>

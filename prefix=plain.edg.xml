@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-11-16 16:55:19 by Eclipse SUMO netconvert Version 1.24.0
+<netconvertConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <node-files value="nodes.xml"/>
+        <edge-files value="edges.xml"/>
+        <connection-files value="connections.xml"/>
+    </input>
+
+    <output>
+        <output-file value="network.net.xml"/>
+        <plain-output-prefix value="prefix=plain"/>
+    </output>
+
+    <processing>
+        <lefthand value="true"/>
+    </processing>
+
+</netconvertConfiguration>
+-->
+
+<edges version="1.20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="east_in" from="east" to="center" priority="-1" numLanes="2" speed="13.00"/>
+    <edge id="east_out" from="center" to="east" priority="-1" numLanes="2" speed="13.00"/>
+    <edge id="north_in" from="north" to="center" priority="-1" numLanes="2" speed="13.00"/>
+    <edge id="north_out" from="center" to="north" priority="-1" numLanes="2" speed="13.00"/>
+    <edge id="south_in" from="south" to="center" priority="-1" numLanes="2" speed="13.00"/>
+    <edge id="south_out" from="center" to="south" priority="-1" numLanes="2" speed="13.00"/>
+    <edge id="west_in" from="west" to="center" priority="-1" numLanes="2" speed="13.00"/>
+    <edge id="west_out" from="center" to="west" priority="-1" numLanes="2" speed="13.00"/>
+</edges>
